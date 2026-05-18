@@ -21,6 +21,14 @@ public class DialogueManager : MonoBehaviour
     public Sprite GaryWink;
     public Sprite VampDefault;
     public Sprite VampWink;
+    public Sprite EnidHappy;
+    public Sprite EnidNeutral;
+    public Sprite EnidSus;
+    public Sprite EnidBlink;
+    public Sprite VodiHappy;
+    public Sprite VodiNeutral;
+    public Sprite VodiSus;
+    public Sprite VodiDismay;
     
     //A list of all the background sprites
     public Sprite OutsideBG;
@@ -83,6 +91,17 @@ public class DialogueManager : MonoBehaviour
         if (who == "Gary Frown") return GaryFrown;
         if (who == "Vampire") return VampDefault;
         if (who == "Vampire Wink") return VampWink;
+        //My Characters
+        //Enid
+        if (who == "Enid Happy") return EnidHappy;
+        if (who == "Enid Neutral") return EnidNeutral;
+        if (who == "Enid Sus") return EnidSus;
+        if (who == "Enid Blink") return EnidBlink;
+        //Vodi
+        if (who == "Vodi Happy") return VodiHappy;
+        if (who == "Vodi Neutral") return VodiNeutral;
+        if (who == "Vodi Sus") return VodiSus;
+        if (who == "Vodi Dismay") return VodiDismay;
         //If Character is left blank, just don't change anything
         return Character.sprite;
     }

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: c601f340d2bf1e04a96ac94ba0ea03b1
+guid: 25d273de46e81d749b61780befd427ef
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8472107978170257250
-    second: enid Happy_0
+      213: 7329194771775797620
+    second: vodi Dismay_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: enid Happy_0
+      name: vodi Dismay_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 47
-        height: 42
+        width: 53
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 26f4799a159f29570800000000000000
-      internalID: 8472107978170257250
+      spriteID: 479b85d20d786b560800000000000000
+      internalID: 7329194771775797620
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      enid Happy_0: 8472107978170257250
+      vodi Dismay_0: 7329194771775797620
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
