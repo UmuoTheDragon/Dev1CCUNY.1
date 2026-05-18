@@ -16,11 +16,6 @@ public class DialogueManager : MonoBehaviour
 
     //A list of all the character sprites
     //I need to make this variables so I can reference them
-    public Sprite GaryDefault;
-    public Sprite GaryFrown;
-    public Sprite GaryWink;
-    public Sprite VampDefault;
-    public Sprite VampWink;
     public Sprite EnidHappy;
     public Sprite EnidNeutral;
     public Sprite EnidSus;
@@ -84,13 +79,6 @@ public class DialogueManager : MonoBehaviour
     //Convert the text description of a character to a sprite
     public Sprite GetCharacter(string who)
     {
-        //If the dialogue line calls for "Gary", use this sprite
-        if (who == "Gary") return GaryDefault;
-        //And so on. . .
-        if (who == "Gary Wink") return GaryWink;
-        if (who == "Gary Frown") return GaryFrown;
-        if (who == "Vampire") return VampDefault;
-        if (who == "Vampire Wink") return VampWink;
         //My Characters
         //Enid
         if (who == "Enid Happy") return EnidHappy;
